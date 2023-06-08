@@ -1,0 +1,57 @@
+body{
+    
+    margin: 0;
+     display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(147, 139, 171);
+    font-family: cursive; 
+
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+    border-radius: 15px;
+    margin: 10px;
+
+     
+}
+#input{
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px rgb(8, 12, 237);
+    color: rgb(20, 220, 70);
+    box-sizing: border-box;
+}
+.input::placeholder{
+    color: rgb(213, 188, 188);
+    font-family: cursive ;
+}
+.submit{
+    background-color: aqua;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    margin: 20px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+    cursor: pointer  ;
+}
+.submit:hover{
+    filter: brightness(.9);
+}
+.score{
+    color: green;
+    text-align: right; 
+}
+
